@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.14" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14810.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.15"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -36,7 +33,7 @@
                         <constraints>
                             <constraint firstItem="dvW-ZB-0JS" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Eq8-qs-azj"/>
                             <constraint firstAttribute="trailing" secondItem="dvW-ZB-0JS" secondAttribute="trailing" id="PNx-Wg-ot4"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="dvW-ZB-0JS" secondAttribute="bottom" id="ZGb-l3-zLm"/>
+                            <constraint firstAttribute="bottom" secondItem="dvW-ZB-0JS" secondAttribute="bottom" id="ZGb-l3-zLm"/>
                             <constraint firstItem="z16-yo-3fe" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="bfw-Oj-Qal"/>
                             <constraint firstItem="z16-yo-3fe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xKv-Wh-Yxd"/>
                             <constraint firstItem="dvW-ZB-0JS" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="zvz-9i-v8j"/>
