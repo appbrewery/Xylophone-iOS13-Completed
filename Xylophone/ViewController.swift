@@ -22,11 +22,15 @@ class ViewController: UIViewController {
         
         playSound(soundName: sender.currentTitle!)
         
-        print("Start")
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            //Code here will be executed after a 2 second delay.
-            print("End")
+        //Reduces the sender's (the button that got pressed) opacity to half.
+        sender.alpha = 0.5
+        
+        //Code should execute after 2 second delay.
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            //Bring's sender's opacity back up to fully opaque.
+            sender.alpha = 1.0
         }
+        
     }
     
     func playSound(soundName: String) {
